@@ -1,17 +1,28 @@
+/** making the scroll behavior smooth **/
 html {
     scroll-behavior: smooth;
 }
+/**first i used black as the background color, but i changed it to the color found in the header image i used.
+(i used image color picker to identify it) which suites the emotion of the song and the old school feeling **/
 body{
-    background-color: #0e0e0e;
+    background-color: #251313;
 }
-header{
-
+/** just wanted to make the image centered **/
+header {
+    width: 100%;
+    height: auto;
 }
-/** that is the closest font i found for the band style, there is one more similar but its no free **/
+header img {
+    width: 100%;
+    height: auto;
+}
+/** that is the closest font i found for the band style, there is one more similar but its no free.
+ the h1 got some shadow and bold weight to it, with colors same as the YouTube video(font color)**/
 h1{
     font-family: "Creepster", system-ui;
     font-size: 38px;
     text-shadow: 4px 4px 8px rgba(0,0,0,.5);
+    font-weight: bold;
     color: #f8f8f8;
     text-align: center;
 }
@@ -19,7 +30,7 @@ h1{
 .song{
     text-align: center;
 }
-/** Made the lyrics in a readable but still "emotional" font.
+/** Made the lyrics in a readable but still "emotional" font(that is the second font).
 The color is also the same as the skin glow from the person in the picture.
 I used text shadow to give it a blur on purpose, as the song is about battling with drug addiction. **/
 p, a{
